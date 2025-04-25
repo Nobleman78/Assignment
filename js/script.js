@@ -16,3 +16,9 @@ document.addEventListener('DOMContentLoaded', function () {
         })
     })
 })
+document.querySelector('.copy_right .arrow-icon').addEventListener('click', function() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
