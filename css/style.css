@@ -876,7 +876,6 @@ hr{
 
     .banner_img img {
         margin-top: 60px;
-        top: 0;
         width: 94%;
         padding-left: 16px;
         padding-right: 16px;
@@ -885,7 +884,7 @@ hr{
     }
     .banner_img .mobile_view {
         top:35%;
-        left: 55%;
+        left: 65%;
         width: 150px;
         height: 300px;
         border-radius: 25px;
@@ -921,6 +920,9 @@ hr{
     }
   
     /* Features Section */
+    .features_section_partone{
+        width: 95%;
+    }
     .features_section_parttwo {
         grid-template-columns: 1fr;
         margin: 30px 20px;
@@ -1004,7 +1006,7 @@ hr{
        
     }
     .part_two_left_side_contents{
-        width: 94%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1013,15 +1015,18 @@ hr{
         padding-bottom: 40px;
       
     }
+    .part_two_left_side_contents div{
+        width: 100%;
+    }
     .part_two_left_side_contents div h2{
         font-weight: 700;
         font-size: 20px;
         color: #475569;
         margin-left: 24px;
-        width: 93%;
+        width: 95%;
     }
     .part_two_left_side_contents div p{
-        width: 94%;
+        width: 95%;
         font-weight: 400;
         color: #475569;
         font-size: 16px;
@@ -1037,11 +1042,12 @@ hr{
        
     }
     .dashboard_image .dashboard_image_one{
-     
+        width: 90%;
         padding: 50px 0px 0px 0px;
         
     }
     .dashboard_image .dashboard_image_two{
+        width: 90%;
         right:0px;
         top: 0px;
      
@@ -1370,10 +1376,10 @@ hr{
 }
 
 .banner_img .mobile_view {
-    top: 98px;
+    top: 25%;
     width: 79px;
     height: 170px;
-    left: 225px;
+    left: 60%;
     border-radius: 25px;
 }
  /* Feature Section */
@@ -1452,14 +1458,15 @@ hr{
         display: flex;
         margin: 0px 16px;
         margin-top: 64px;
-        width: 343px;
+        width: 90%;
         flex-direction: column;
         gap: 50px;
        
     }
     .part_two_left_side_contents{
-        width: 343px;
+        width: 100%;
         display: flex;
+        margin: 0px;
         flex-direction: column;
         justify-content: center;
         position: relative;
@@ -1481,7 +1488,7 @@ hr{
         margin-left: 24px;
     }
     .dashboard_image{
-        position: relative;
+        position:relative;
         border-radius: 32px;
         width: 100%;
         height: auto;
@@ -1489,14 +1496,14 @@ hr{
        
     }
     .dashboard_image .dashboard_image_one{
-        width: 350px;
+        width: 95%;
         padding: 50px 0px 0px 0px;
         
     }
     .dashboard_image .dashboard_image_two{
         right:0px;
         top: 0px;
-        width: 350px;
+        width: 95%;
 
     }
 
@@ -1663,4 +1670,256 @@ hr{
     }
 
     
+}
+
+/*Responsive For Tablet */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* General Adjustments */
+   
+  
+    /* Header & Navigation */
+    .nav_section {
+        padding: 0 40px;
+    }
+    .nav_section ul {
+        display: flex;
+    }
+    .nav_section .monotone_image {
+        display: none;
+    }
+
+    /* Banner Section */
+    .banner_section .banner_text_two {
+        font-size: 48px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .banner_img img {
+        margin-top: 60px;
+        width: 97%;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 120px;
+       
+    }
+    .banner_img .mobile_view {
+        left: 60%;
+        bottom: 0;
+        width: 200px;
+        height: 400px;
+    }
+
+    /* Company Section */
+    .company_section .company_list_one,
+    .company_section .company_list_two {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 60px;
+        margin:auto;
+        padding: 40px 0;
+        width: 95%;
+        padding: 50px 50px 30px 50px;
+    }
+
+    /* Features Section */
+    .features_section_parttwo {
+        width: 100%;
+        margin: auto;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    .features_contents{
+        width: 80%;
+        margin-top: 40px;
+     
+    }
+
+    /* Statistics Section */
+    .statistic-contents-part-two {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .statistic-contents-part-two .part-two-contents{
+        width: 75%;
+        
+    }
+
+    /* Dashboard Section */
+    /* .dashboard_contents_part_two {
+        flex-direction: row;
+        align-items: center;
+    } */
+    .part_two_left_side_contents {
+        width: 50%;
+    }
+    .dashboard_image {
+        width: 45%;
+    }
+
+     /* Dashboard Section */
+
+     .dashboard_section .dashboard_contents{
+        width: 100%;
+        margin: 0px 16px 0px 16px;
+     
+    }
+    .dashboard_section .dashboard_contents h2{
+        color: #1E293B;
+        font-size: 30px;
+        font-weight: 800;
+        width: 100%;
+    }
+    .dashboard_section .dashboard_contents h3{
+        color: #475569;
+        font-size: 20px;
+        font-weight: 400;
+        width: 100%;
+    }
+    .dashboard_contents_part_two{
+        display: flex;
+        margin: 0px 16px;
+        margin-top: 64px;
+        width: 100%;
+        flex-direction: column;
+        gap: 50px;
+       
+    }
+    .part_two_left_side_contents{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        gap: 50px;
+      
+    }
+    .part_two_left_side_contents div{
+        width: 100%;
+    }
+    .part_two_left_side_contents div h2{
+        font-weight: 700;
+        font-size: 20px;
+        color: #475569;
+        margin-left: 24px;
+        width: 100%;
+      
+    }
+    .part_two_left_side_contents div p{
+        width: 100%;
+        font-weight: 400;
+        color: #475569;
+        font-size: 16px;
+        margin-left: 24px;
+   
+    }
+    .dashboard_image{
+        position: relative;
+        border-radius: 32px;
+        width: 100%;
+        height: auto;
+        background-color: #F1F5F9;
+       
+    }
+    .dashboard_image .dashboard_image_one{
+        width: 80%;
+        padding: 70px 0px 0px 0px;
+        
+    }
+    .dashboard_image .dashboard_image_two{
+        right:0px;
+        top: 0px;
+        width: 100%;
+
+    }
+
+
+    /* Testimonials */
+
+    .testimonial_section_parttwo {
+        width: 95%;
+        margin: 50px auto;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    /* Contact Section */
+    .contact_infomration {
+        width: 95%;
+        margin: 50px 16px 0px 16px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+     .contact_contents{
+        margin: 50px 16px 0px 16px;
+        display: flex ;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+   
+    /* FAQ Section */
+    .faq_section_partone{
+        width: 100%;
+    }
+    .faq_section_partone h5{
+        width: 97%;
+    }
+    .faq_section_part_two {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    /* Download Section */
+
+    .download_contents {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+        align-items: center;
+        
+    }
+    .download_left_side_contents {
+        margin: 0px 16px;
+        width: 40%;
+    }.download_left_side_contents p{
+        width: 100%;
+    }
+    .download_image {
+        width: 45%;
+        margin: 0;
+    }
+    .download_image .download_image_one{
+       height: 400px;
+       width: 200px;
+       margin-left: -15%;
+      
+    }
+    .download_image .download_image_two{
+        top: -75px;
+        right: 0;
+        border-radius: 20px;
+    }
+
+    /* Footer Section */
+
+    .footer-section{
+        width: 100%;
+    }
+    .footer-section .footer_section_top {
+        margin: 20px 16px 20px 16px;
+        width: 95%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .footer_section_bottom {
+        width: 95%;
+        margin: 0px;
+        flex-direction: row;
+        padding: 0 40px;
+    }
+    .footer_section_bottom .logo{
+        width: 90px;
+        height: 25px;
+    }
 }
