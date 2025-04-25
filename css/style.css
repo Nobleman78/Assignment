@@ -857,44 +857,47 @@ hr{
 
     /* Banner Section */
     .banner_section {
-        max-width: 375px;
+        width: 100%;
         
     }
-
     .banner_section .banner_text_two {
         font-size: 36px;
-        width: 343px;
+        width: 97%;
         
     }
     .banner_section .banner_text_three{
-        width: 343px;
+        width: 90%;
         font-size: 16px;
        
     }
-  
-    .banner_img img {
-        width: 90%;
-        padding-left: 16px;
-        padding-right: 16px;
-        
+    .banner_section .store_section{
+        margin-bottom: 40px;
     }
 
+    .banner_img img {
+        margin-top: 60px;
+        width: 94%;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 120px;
+       
+    }
     .banner_img .mobile_view {
-        top: 98px;
-        width: 79px;
-        height: 170px;
-        left: 225px;
+        top:35%;
+        left: 55%;
+        width: 150px;
+        height: 300px;
         border-radius: 25px;
     }
 
     /* Company Section */
      .company_section{
-        padding: 0px 0px 40px 0px;
+        padding: 20px 0px 40px 0px;
      }
      .company_section .company_list_one{
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        width: 343px;
+        width: 100%;
         margin: 0px 22px;
         gap: 50px;
     
@@ -906,7 +909,7 @@ hr{
     .company_section .company_list_two{
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        width: 343px;
+        width: 100%;
         margin: 30px 40px;
         gap: 40px;
     
@@ -923,26 +926,211 @@ hr{
         padding: 0;
     }
 
+     /* Statistic Section */
+
+     .statistic-section {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .statistic-section .statistic-contents-part-one {
+        width: 94%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+       
+    }
+  
+    .statistic-contents-part-one h2{
+        width: 94%;
+        font-size: 30px;
+        text-align: center;
+    }
+    .statistic-contents-part-one p{
+        width: 94%;
+        text-align: center;
+    }
+    
+    .statistic-section .statistic-contents-part-two {
+        width: 94%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin:40px auto 40px auto;
+        gap: 40px;
+
+    }
+
+     /* Dashboard Section */
+
+     .dashboard_section .dashboard_contents{
+        width: 100%;
+        margin: 0px 16px 0px 16px;
+     
+    }
+    .dashboard_section .dashboard_contents p{
+        font-size:14px;
+        width: 90px;
+        font-weight: 600;
+        color: #4F46E5;
+        border: 1px solid #EEF2FF;
+        padding: 5px 10px;
+        border-radius: 1234px;
+        background-color: #EEF2FF;
+       
+    }
+    .dashboard_section .dashboard_contents h2{
+        color: #1E293B;
+        font-size: 30px;
+        font-weight: 800;
+        width: 94%;
+    }
+    .dashboard_section .dashboard_contents h3{
+        color: #475569;
+        font-size: 20px;
+        font-weight: 400;
+        width: 94%;
+    }
+    .dashboard_contents_part_two{
+        display: flex;
+        margin: 0px 16px;
+        margin-top: 64px;
+        width: 94%;
+        flex-direction: column;
+        gap: 50px;
+       
+    }
+    .part_two_left_side_contents{
+        width: 94%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        gap: 40px;
+        padding-bottom: 40px;
+      
+    }
+    .part_two_left_side_contents div h2{
+        font-weight: 700;
+        font-size: 20px;
+        color: #475569;
+        margin-left: 24px;
+        width: 93%;
+    }
+    .part_two_left_side_contents div p{
+        width: 94%;
+        font-weight: 400;
+        color: #475569;
+        font-size: 16px;
+        margin-left: 24px;
+
+    }
+    .dashboard_image{
+        position: relative;
+        border-radius: 32px;
+        width: 100%;
+        height: auto;
+        background-color: #F1F5F9;
+       
+    }
+    .dashboard_image .dashboard_image_one{
+     
+        padding: 50px 0px 0px 0px;
+        
+    }
+    .dashboard_image .dashboard_image_two{
+        right:0px;
+        top: 0px;
+     
+    }
+
     /* Testimonials */
+    .testimonial_section_partone h5{
+        width: 95%;
+    }
     .testimonial_section_parttwo {
         grid-template-columns: 1fr;
         margin: 30px 20px;
     }
 
     /* Contact Section */
-    /* .contact_infomration {
+    .contact_infomration {
         grid-template-columns: 1fr;
         margin: 30px 20px;
-    } */
+    }
+ 
+
+    .contact_contents{
+        margin: 50px 16px 0px 16px;
+        display: flex ;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+    .contact_contents h3{
+        font-size: 14px;
+        width: 110px;
+        font-weight: 600;
+        color: #4F46E5;
+        border: 1px solid #EEF2FF;
+        padding: 5px 10px;
+        border-radius: 1234px;
+        background-color: #EEF2FF;
+    
+    
+    }
+    .contact_contents h2{
+        font-size: 36px;
+        color: #1E293B;
+        font-weight: 800;
+    }
+    .contact_contents p{
+        font-size: 18px;
+        font-weight: 400;
+        color: #475569;
+    }
+    .contact_infomration{
+        width: 94%;
+        margin: 30px 160px 0px 16px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 32px;
+        margin-top: 64px;
+    }
+    .contact_infomration div{
+       border: 1px solid #E2E8F0;
+       padding: 26px 20px;
+       border-radius: 30px;
+       
+    }
+    .contact_infomration div img{
+        width: 18px;
+        height: 21px;
+        margin-bottom: 24px;
+    }
+    .contact_infomration div h2{
+        color: #1E293B;
+        font-weight: 800;
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    .contact_infomration div p{
+        color: #1E293B;
+        font-size: 16px;
+        font-weight: 400;
+    }
 
     /* FAQ Section */
     .faq_section_partone{
-        width: 375px;
+        width: 95%;
+        margin:auto;
     }
     .faq_section_partone h5 {
         width: 95%;
         margin: 0px 16px;
-        padding: 0 20px;
+        padding: 0px 0px 40px 0px;
     }
     .faq_contents div img{
         width: 60px;
@@ -959,7 +1147,7 @@ hr{
         padding: 0px 0px 30px 0px;
     }
     .main_faq_contents .faq-answer{
-        width: 290px;
+        width: 90%;
         
     }
 
@@ -984,6 +1172,7 @@ hr{
 .download_left_side_contents h2{
     font-size: 36px;
     width: 95%;
+    margin: auto;
     color: #1E293B;
     font-weight: 800;
     margin-bottom: 24px;
@@ -993,13 +1182,15 @@ hr{
     color: #475569;
     font-weight: 400;
     width: 95%;
+    margin: auto;
     
 }
-
 
 .download_left_side_contents .download_button{
     display: flex;
     width: 95%;
+    margin: auto;
+    flex-direction: column;
     gap: 16px;
     margin-top: 40px;
 }
@@ -1026,13 +1217,14 @@ hr{
 .download_image .download_image_one{
     margin-top: 50px;
     margin-right: 400px;
-    width: 162px;
+    width: 250px;
+    /* width: 162px; */
     border-radius: 30px;
     
 }
 .download_image .download_image_two{
     position: absolute;
-    top: -30px;
+    top: -40px;
     right: -5px;
     height: 90%;
     border-radius: 25px;
@@ -1110,13 +1302,17 @@ hr{
 
 /* Small Phone Adjustments */
 @media (max-width: 480px) {
-    .banner_section .banner_text_two {
-        font-size: 28px;
-    }
 
-    .banner_section .store_section {
-        flex-direction: row;
+    .banner_section {
+        width: 100%;
+        
     }
+    .banner_section .banner_text_two {
+        font-size: 36px;
+        width: 95%;
+     
+    }
+  
     /* Company Section */
     .company_section{
         padding: 30px 0px 40px 0px;
@@ -1303,12 +1499,32 @@ hr{
 
     }
 
+    /* Download Section */
+
+    .download_image .download_image_one{
+        margin-top: 50px;
+        margin-right: 400px;   
+        width: 162px;
+        border-radius: 30px;
+        
+    }
+    .download_left_side_contents h2 {
+        font-size: 28px;
+    }
+
+    .download_button {
+        flex-direction: column;
+    }
+
+    /* Testimonial Section */
+
     .testimonial_section_partone h2 {
         font-size: 28px;
     }
     .testimonial_section_parttwo .loadmore_button{
         display: block;
     }
+
     /* Contact Section */
 
     .contact_contents{
@@ -1371,14 +1587,8 @@ hr{
         font-weight: 400;
     }
 
-    .download_left_side_contents h2 {
-        font-size: 28px;
-    }
-
-    .download_button {
-        flex-direction: column;
-    }
-
+   
+    /* Header Section */
     .nav_ul_center,
     .nav_ul_end {
         flex-direction: column;
