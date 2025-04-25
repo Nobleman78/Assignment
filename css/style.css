@@ -743,7 +743,7 @@ body {
   font-weight: 500;
 }
 hr {
-  margin: 20px;
+  margin: 40px 110px 0px 110px;
 }
 
 .footer_section_bottom {
@@ -773,6 +773,7 @@ hr {
   border-radius: 100%;
   cursor: pointer;
 }
+
 .footer_section_bottom p {
   color: #94a3b8;
   font-size: 14px;
