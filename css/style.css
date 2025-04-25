@@ -1239,6 +1239,7 @@ hr {
   }
   /* Footer section */
 }
+
 @media (min-width: 500px) and (max-width: 700px) {
   .banner_img .mobile_view {
     top: 25%;
@@ -1258,6 +1259,14 @@ hr {
     font-size: 36px;
     width: 95%;
   }
+  .banner_img .mobile_view {
+    top: 25%;
+    left: 55%;
+    width: 150px;
+    height: 300px;
+    border-radius: 25px;
+  }
+
 
   /* Company Section */
   .company_section {
