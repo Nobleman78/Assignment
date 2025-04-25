@@ -32,22 +32,22 @@ document.querySelector('.copy_right .arrow-icon').addEventListener('click', func
 
 let isExpanded = false;
 
-function isMobile() {
+function checkIsMobile() {
     return window.innerWidth <= 768;
 }
 
 function handleTestimonials() {
     const testimonials = document.querySelectorAll('.testimonials');
-    const loadMoreButton = document.querySelector('.loadmore_button');
+    const button = document.querySelector('.loadmore_button');
     
-    if (!isExpanded && isMobile()) {
+    if (!isExpanded && checkIsMobile()) {
         testimonials.forEach((testimonial, index) => {
             testimonial.classList.toggle('hidden', index >= 4);
         });
-        loadMoreButton.classList.remove('hidden');
+        button.classList.remove('hidden');
     } else {
         testimonials.forEach(testimonial => testimonial.classList.remove('hidden'));
-        loadMoreButton.classList.add('hidden');
+        button.classList.add('hidden');
     }
 }
 
