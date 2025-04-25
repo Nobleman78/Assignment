@@ -1239,7 +1239,7 @@ hr {
   }
   /* Footer section */
 }
-@media (min-width: 500px) and (max-width: 600px) {
+@media (min-width: 500px) and (max-width: 700px) {
   .banner_img .mobile_view {
     top: 25%;
     left: 55%;
