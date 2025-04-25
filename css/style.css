@@ -876,6 +876,7 @@ hr{
 
     .banner_img img {
         margin-top: 60px;
+        top: 0;
         width: 94%;
         padding-left: 16px;
         padding-right: 16px;
@@ -1217,7 +1218,7 @@ hr{
 .download_image .download_image_one{
     margin-top: 50px;
     margin-right: 400px;
-    width: 250px;
+    width: 45%;
     /* width: 162px; */
     border-radius: 30px;
     
