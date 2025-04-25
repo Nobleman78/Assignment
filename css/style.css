@@ -8,11 +8,11 @@ body {
   margin: auto;
 }
 .header_banner-section {
-  background: linear-gradient(to bottom, #fff, #fdfeff, #b39ef1);
+  background: linear-gradient(to bottom , #fff, #e0e9f1, #b9a4f8);
   margin-top: 20px;
 }
 .nav_section {
-  max-width: 1216px;
+  max-width: 1215px;
   margin: auto;
   display: flex;
   align-items: center;
@@ -27,7 +27,7 @@ body {
 }
 .nav_ul_center {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   align-items: center;
   justify-items: center;
 }
@@ -75,7 +75,7 @@ body {
   gap: 20px;
 }
 .banner_section .banner_text_one {
-  font-family: 14px;
+  font-size: 14px;
   font-weight: 600;
   color: #4f46e5;
   border: 1px solid #eef2ff;
@@ -109,17 +109,17 @@ body {
   position: relative;
 }
 .banner_img img {
-  width: 800px;
+  width: 850px;
   margin-top: 40px;
   border-radius: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 .banner_img .mobile_view {
   position: absolute;
   width: 205px;
   border-radius: 30px;
-  top: 160px;
-  left: 73%;
+  top: 30%;
+  left: 78%;
 }
 /* Company Section */
 .company_section {
@@ -592,9 +592,9 @@ body {
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.main_faq_contents.active .faq-answer{
+.main_faq_contents.active .faq-answer {
   display: block;
-} 
+}
 .arrow-icon.rotate {
   transform: rotate(180deg);
 }
@@ -825,18 +825,21 @@ hr {
   .banner_section .store_section {
     margin-bottom: 40px;
   }
-
+  .banner_img {
+    padding-bottom: 80px;
+  }
   .banner_img img {
     margin-top: 60px;
-    width: 94%;
+    width: 95%;
     padding-left: 16px;
     padding-right: 16px;
-    padding-bottom: 120px;
+    padding-bottom: 20px;
+    border-radius: 30px;
   }
   .banner_img .mobile_view {
     top: 30%;
     left: 57%;
-    border-radius: 25px;
+    border-radius: 30px;
   }
 
   /* Company Section */
@@ -1239,7 +1242,9 @@ hr {
 }
 
 @media (min-width: 481px) and (max-width: 765px) {
-
+  .banner_img img {
+    width: 94%;
+  }
   .banner_img .mobile_view {
     top: 25%;
     left: 54%;
@@ -1251,21 +1256,33 @@ hr {
 
 /* Small Phone Adjustments */
 @media (max-width: 480px) {
+  /* Banner Section */
+
   .banner_section {
     width: 100%;
   }
+
   .banner_section .banner_text_two {
     font-size: 36px;
     width: 95%;
   }
-  .banner_img .mobile_view {
-    top: 25%;
-    left: 55%;
-    width: 150px;
-    height: 300px;
-    border-radius: 25px;
+  .banner_img {
+    padding-bottom: 0px;
   }
-
+  .banner_img img {
+    width: 92%;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+  }
+  .banner_img .mobile_view {
+    top: 18%;
+    left: 56%;
+    width: 100px;
+    height: 200px;
+    border-radius: 30px;
+  }
 
   /* Company Section */
   .company_section {
@@ -1293,35 +1310,7 @@ hr {
     width: 75px;
     height: 30px;
   }
-  /* Banner Section */
-  .banner_section {
-    max-width: 375px;
-  }
 
-  .banner_section .banner_text_two {
-    font-size: 36px;
-    width: 95%;
-    text-align: center;
-  }
-  .banner_section .banner_text_three {
-    width: 343px;
-    font-size: 16px;
-  }
-
-  .banner_img img {
-    width: 90%;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 50px;
-  }
-
-  .banner_img .mobile_view {
-    top: 25%;
-    width: 79px;
-    height: 170px;
-    left: 60%;
-    border-radius: 25px;
-  }
   /* Feature Section */
 
   .features_section_partone h3 {
