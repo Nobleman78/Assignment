@@ -592,15 +592,12 @@ body {
   cursor: pointer;
   transition: all 0.3s ease;
 }
-
-.main_faq_contents.active .faq-answer {
+.main_faq_contents.active .faq-answer{
   display: block;
-}
-
+} 
 .arrow-icon.rotate {
   transform: rotate(180deg);
 }
-
 .arrow-icon {
   transition: transform 0.3s ease;
 }
