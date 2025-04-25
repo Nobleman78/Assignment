@@ -703,6 +703,7 @@ body {
   border-radius: 30px;
 }
 .download_image .download_image_two {
+  top: -90px;
   position: absolute;
   right: 100px;
   height: 90%;
@@ -1585,7 +1586,7 @@ hr {
 
 /*Responsive For Tablet */
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1025px) {
   /* General Adjustments */
 
   /* Header & Navigation */
