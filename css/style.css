@@ -804,8 +804,6 @@ hr{
     align-items: center;
     justify-content: space-between;
     gap: 10px;
-    
-
 }
 
 .footer_section_bottom .copy_right .arrow-icon{
@@ -1061,6 +1059,19 @@ hr{
     .testimonial_section_parttwo {
         grid-template-columns: 1fr;
         margin: 30px 20px;
+    }
+    .testimonial_section_parttwo .loadmore_button{
+        padding: 10px 8px;
+        display: block;
+        background-color: #4F46E5;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 14px;
+        border-radius: 1234px;  
+        border: 1px solid #4F46E5 ;
+    }
+    .hidden {
+        display: none !important;
     }
 
     /* Contact Section */
